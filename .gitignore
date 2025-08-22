@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Playwright
 node_modules/
@@ -5,3 +6,15 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+=======
+# Node modules
+node_modules/
+
+# Newman generated reports
+newman-run-report.html
+newman/*.html
+reports/
+
+# Logs
+*.log
+>>>>>>> 81d2bfb (Remove generated reports from version control and add to .gitignore)
