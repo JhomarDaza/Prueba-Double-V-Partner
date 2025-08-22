@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const filePath = path.resolve('temp/email.json');
+const filePath = path.resolve('Punto2/temp/email.json');
 
 export function guardarEmail(email) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
